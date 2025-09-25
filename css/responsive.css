@@ -1,0 +1,145 @@
+/* DESKTOP VERSION */
+@media (min-width: 0px) and (max-width: 374px) {
+  .jumbotron {
+    /* margin-top: -100px !important; */
+    height: 600px;
+  }
+  .jumbotron .display-4 {
+    /* font-size: 35px; */
+    width: 250px;
+    margin-top: 80px;
+  }
+
+  .jumbotron #undangan {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .jumbotron p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  #intro .sholawat {
+    font-size: 30px;
+  }
+
+  #pernikahan h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .undangan-nikah h1 {
+    font-size: 20px;
+  }
+
+  #laki {
+    margin-bottom: 20px;
+  }
+  .maps {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 374px) {
+  .jumbotron {
+    /* margin-top: -100px !important; */
+    height: 700px;
+  }
+  .jumbotron .container {
+    z-index: 2;
+  }
+  .jumbotron .display-4 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+  .jumbotron .display-4 span {
+    font-size: 70px;
+  }
+  .jumbotron .display-4 span #dan {
+    display: block;
+  }
+  #intro h1 {
+    font-size: 30px !important;
+  }
+  #intro h1 span {
+    display: block;
+  }
+
+  .maps {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .jumbotron {
+    /* margin-top: -100px !important; */
+    height: 650px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 45px;
+    margin-top: 110px;
+  }
+  .jumbotron .display-4 span {
+    font-size: 90px;
+  }
+  .jumbotron .display-4 span #dan {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .jumbotron {
+    /* margin-top: -100px !important; */
+    height: 650px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 45px;
+    margin-top: 110px;
+  }
+  .jumbotron .display-4 span {
+    font-size: 100px;
+  }
+  .jumbotron .display-4 span #dan {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: " ";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron {
+    margin-top: -65px !important;
+    height: 670px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+  .testimonial h5 {
+    font-size: 32px;
+  }
+}

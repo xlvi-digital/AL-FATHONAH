@@ -1,0 +1,306 @@
+.btn-primary {
+  border-color: #395f6b;
+  background-color: #395f6b;
+}
+
+.btn-primary:hover {
+  background-color: #2e4f59;
+}
+
+.btn-primary:enabled {
+  background-color: #2e4f59;
+}
+.btn-danger {
+  background-color: red !important;
+  border-color: #acacac;
+}
+
+.btn-danger:hover {
+  background-color: #afafaf;
+  border-color: #d8dbe3;
+  color: #34364a;
+}
+
+.btn-danger:focus {
+  border-color: #d8dbe3;
+  background-color: #d8dbe3;
+}
+.btn-light {
+  background-color: #fff;
+  border-color: #e5e9f2;
+  color: #34364a;
+}
+/* * {
+  width: 100%;
+  height: auto;
+} */
+body {
+  font-family: "Lora", serif;
+  background-image: url(../img/bg-intro.png) !important;
+  /* background-color: #2e4f59; */
+  background-size: cover;
+  /* width: 100%; */
+  height: auto;
+}
+/* navbar */
+.navbar {
+  position: relative;
+  z-index: 2;
+  /* margin-bottom: 0; */
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+/* jumbotron */
+.jumbotron {
+  /* background-image: url(/img/wedding.jpg) !important; */
+  background-image: url("../img/bg-jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  margin-top: 20px !important;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.jumbotron .display-4 {
+  margin-top: -100px;
+}
+
+.jumbotron h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 70px !important;
+  font-weight: 600;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* .jumbotron .display-4 span {
+  font-weight: 700;
+  font-family: "Explora", cursive;
+  font-size: 200px;
+} */
+.jumbotron p {
+  font-size: 30px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+p {
+  color: #fff;
+}
+/* intro */
+#intro {
+  margin-top: 60px;
+}
+
+#intro h2 {
+  color: #34364a;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+#intro h1 {
+  color: #34364a;
+  font-weight: 900;
+  margin-top: 25px;
+}
+#intro p {
+  color: #9d9c9c;
+}
+#intro .pembukaan .bi {
+  font-size: 35px;
+  color: red;
+}
+#intro .pembukaan h4 {
+  margin-top: 40px;
+  color: #34364a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#intro .pembukaan p {
+  /* text-align: right; */
+  padding: 10px 10px;
+  font-size: 15px;
+
+  line-height: 25px;
+  font-weight: 300;
+}
+
+#intro .pembukaan span {
+  text-align: center;
+  display: block;
+}
+
+.akad h4 {
+  font-size: 21px;
+  color: #2e4f59;
+  font-weight: 700;
+}
+.akad h3 {
+  font-size: 24px;
+  color: #2e4f59;
+  font-weight: 700;
+}
+.mb-200 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.akad h5 {
+  font-size: 20px;
+  color: #395f6b;
+  font-weight: 700;
+}
+
+.akad p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* undangan pernikahan */
+#pernikahan {
+  margin-top: 70px !important;
+}
+/* .undangan-nikah {
+  background: url("../img/wedding.jpg") !important;
+  background-size: cover;
+} */
+.undangan-nikah h1 {
+  /* color: white; */
+  margin-top: 20px;
+  font-size: 65px !important;
+  font-weight: 600;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.undangan-nikah p {
+  color: #787676;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 50%;
+  float: left;
+}
+.undangan-nikah hr {
+  float: left;
+  width: 24%;
+  height: 1px;
+  margin-top: 16px;
+  border: none;
+  background-color: #000;
+}
+#pernikahan h2 {
+  color: #34364a;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+#pernikahan h3 {
+  font-size: 21px;
+  color: #2e4f59;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#pernikahan h4 {
+  font-size: 24px;
+  color: #2e4f59;
+  font-weight: 700;
+}
+
+.hitung-mundur h4 {
+  padding: 15px 20px;
+  border-radius: 24px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: #395f6b;
+}
+
+.hitung-mundur p {
+  color: #787676;
+}
+
+/* lokasi*/
+#lokasi,
+.gift {
+  margin-top: 80px;
+}
+
+#lokasi h2,
+#gift h2 {
+  color: #34364a;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Explora", cursive;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#lokasi h3 {
+  font-size: 22px;
+  color: #34364a;
+  font-weight: 900;
+}
+
+.gift {
+  background-color: #395f6b;
+}
+
+.detail-rek p {
+  font-family: "Jura", "sans-serif";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #54595f;
+  margin: 0;
+  font-weight: 600;
+}
+.copy-rek {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.salin {
+  font-size: 1.2rem;
+  box-shadow: 0px 4px 4px -3px rgba(0, 0, 0, 0.5);
+  padding: 9px;
+  fill: #000000;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Jura", "Sans-serif";
+  border: none;
+}
+
+/* footer */
+footer {
+  padding: 50px;
+  background: #34364a;
+}
+footer p {
+  color: #acacac;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* utulity */
