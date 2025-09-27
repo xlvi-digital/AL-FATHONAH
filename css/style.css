@@ -237,6 +237,10 @@ p {
   background-color: #395f6b;
 }
 
+.undangan-nikah h1 {
+  font-size: 60px;
+}
+
 .hitung-mundur p {
   color: #787676;
 }
@@ -268,7 +272,7 @@ p {
 
 .detail-rek p {
   font-family: "Jura", "sans-serif";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #54595f;
