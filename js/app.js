@@ -1,5 +1,5 @@
 // Mengatur waktu akhir perhitungan mundur
-var countDownDate = new Date("oct 05, 2025 19:30:00").getTime();
+var countDownDate = new Date("oct 04, 2025 19:30:00").getTime();
 
 // Memperbarui hitungan mundur setiap 1 detik
 var x = setInterval(function () {
