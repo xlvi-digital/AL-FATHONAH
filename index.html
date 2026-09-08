@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07130f" />
+    <meta
+      name="description"
+      content="Undangan resmi Maulid Nabi Majelis Ta'lim Al-Fathonah. Sabtu, 19 September 2026 pukul 19.30 WIB."
+    />
+    <link rel="icon" type="image/png" href="img/al-fathonah.png" />
+    <link rel="apple-touch-icon" href="img/al-fathonah.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Majelis Ta'lim Al-Fathonah" />
+    <meta property="og:title" content="Undangan Maulid Nabi | Al-Fathonah" />
+    <meta
+      property="og:description"
+      content="Mari hadir dalam peringatan Maulid Nabi bersama Majelis Ta'lim Al-Fathonah, Sabtu 19 September 2026 pukul 19.30 WIB."
+    />
+    <meta property="og:image" content="img/al-fathonah.png" />
+    <meta property="og:image:alt" content="Logo Majelis Ta'lim Al-Fathonah" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="1128" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Undangan Maulid Nabi | Al-Fathonah" />
+    <meta
+      name="twitter:description"
+      content="Peringatan Maulid Nabi Majelis Ta'lim Al-Fathonah, 19 September 2026."
+    />
+    <meta name="twitter:image" content="img/al-fathonah.png" />
+    <title>Maulid Nabi | Majelis Ta'lim Al-Fathonah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <audio
+      id="background-music"
+      src="sound/nadom-alfathonah.mp3"
+      loop
+      preload="auto"
+    ></audio>
+    <button
+      class="music-toggle"
+      type="button"
+      aria-label="Putar musik"
+      aria-pressed="false"
+    >
+      <span class="music-icon">♫</span
+      ><span class="music-label">Putar musik</span>
+    </button>
+    <main>
+      <section class="hero section-frame" id="beranda">
+        <div class="hero-topline">
+          <span></span>
+          <p>UNDANGAN RESMI <i>•</i> MAULID NABI</p>
+          <span></span>
+        </div>
+        <div class="logo-mark" aria-label="Logo Majelis Ta'lim Al-Fathonah">
+          <img src="img/al-fathonah.png" alt="Logo Majelis Al-Fathonah" />
+        </div>
+        <p class="eyebrow">Majelis Ta'lim Al-Fathonah</p>
+        <p class="arabic hero-arabic" lang="ar">اللهم صل وسلم وبارك عليه</p>
+        <p class="translation">Allahumma shalli wasallim wa baarik 'alayh</p>
+        <h1>
+          Memperingati Hari Kelahiran<br /><em
+            >Kanjeng Nabi<br />Muhammad SAW</em
+          >
+        </h1>
+        <div class="hero-meta">
+          <span>1447 Hijriyah</span><b></b><span>Maulid Nabi</span>
+        </div>
+        <a
+          class="scroll-cue"
+          href="#rangkaian"
+          aria-label="Lihat rangkaian acara"
+          ><span>↓</span></a
+        >
+      </section>
+
+      <section class="intro section-frame" id="rangkaian">
+        <div class="ornament" aria-hidden="true">✦</div>
+        <figure class="section-visual">
+          <img
+            src="img/1.jpeg"
+            alt="Suasana kegiatan Majelis Ta'lim Al-Fathonah"
+            loading="lazy"
+          />
+        </figure>
+        <p class="intro-copy">
+          Dengan memohon rahmat dan ridho Allah SWT, kami mengundang segenap
+          kaum muslimin & muslimat untuk menghadiri majelis ilmu dan dzikir
+          bersama.
+        </p>
+        <div class="section-heading">
+          <span class="section-kicker">01 / WAKTU</span>
+          <h2>Hitung Mundur</h2>
+        </div>
+        <div class="countdown" aria-label="Hitung mundur menuju acara">
+          <div><strong id="days">00</strong><span>Hari</span></div>
+          <i></i>
+          <div><strong id="hours">00</strong><span>Jam</span></div>
+          <i></i>
+          <div><strong id="minutes">00</strong><span>Menit</span></div>
+          <i></i>
+          <div><strong id="seconds">00</strong><span>Detik</span></div>
+        </div>
+      </section>
+
+      <section class="schedule section-frame" aria-labelledby="schedule-title">
+        <figure class="section-visual">
+          <img
+            src="img/2.jpeg"
+            alt="Persiapan rangkaian acara majelis"
+            loading="lazy"
+          />
+        </figure>
+        <div class="section-heading split">
+          <div>
+            <span class="section-kicker">02 / AGENDA</span>
+            <h2 id="schedule-title">Jadwal Pelaksanaan</h2>
+          </div>
+          <span class="event-count">1 Sesi Majelis</span>
+        </div>
+        <article class="schedule-item">
+          <div class="schedule-tag">✦ KHUSUS LAKI-LAKI <span>UMUM</span></div>
+          <div class="schedule-row">
+            <div>
+              <p class="date">Sabtu, 19 September 2026</p>
+              <p class="time">◷ &nbsp;Pukul 19:30 WIB – Selesai</p>
+            </div>
+            <span class="audience">Malam Ahad</span>
+          </div>
+          <p class="schedule-detail">
+            Rangkaian pembacaan Maulid Simthud Durar, dzikir bersama, dan
+            tausyiah akbar peringatan Maulid Nabi SAW.
+          </p>
+        </article>
+      </section>
+
+      <section class="speaker section-frame" aria-labelledby="speaker-title">
+        <figure class="section-visual speaker-visual">
+          <img
+            src="img/3.jpeg"
+            alt="Suasana tausyiah dan majelis ilmu"
+            loading="lazy"
+          />
+        </figure>
+        <div class="speaker-seal">✦</div>
+        <span class="section-kicker">03 / MAU'IDZAH HASANAH</span>
+        <h2 id="speaker-title">Muballigh & Penceramah Utama</h2>
+        <p class="speaker-name">K.H. Muhammad Qomunuddin</p>
+        <p class="speaker-title">(Abah Lewimalang)</p>
+        <div class="speaker-line"></div>
+        <p class="speaker-role">
+          Pimpinan Pondok Pesantren<br />Roudlotul Ulum
+        </p>
+        <p class="speaker-note">
+          “Meneladani Akhlak Sayyidul Anbiya Muhammad SAW sebagai fondasi
+          membangun Berakhlakul Karimah.”
+        </p>
+      </section>
+
+      <section class="location section-frame" aria-labelledby="location-title">
+        <figure class="section-visual">
+          <img
+            src="img/4.jpeg"
+            alt="Kegiatan di lingkungan Majelis Al-Fathonah"
+            loading="lazy"
+          />
+        </figure>
+        <div class="section-heading">
+          <span class="section-kicker">04 / LOKASI</span>
+          <h2 id="location-title">Tempat Majelis</h2>
+        </div>
+        <div class="map-art" aria-hidden="true">
+          <span class="map-pin">●</span
+          ><span class="map-label">AL-FATHONAH</span>
+          <div class="map-road road-one"></div>
+          <div class="map-road road-two"></div>
+          <div class="map-road road-three"></div>
+        </div>
+        <div class="address">
+          <span class="address-icon">⌖</span>
+          <div>
+            <p class="address-title">Majelis Ta'lim Al-Fathonah</p>
+            <p>
+              Jl. Baros, Gg H Sulaeman, Sukataris, <br />
+              Kec. Karangtengah, Kabupaten Cianjur, Jawa Barat 43281
+            </p>
+          </div>
+        </div>
+        <a
+          class="gold-button"
+          href="https://maps.app.goo.gl/8wRaCEW2x9Bafe3c8"
+          target="_blank"
+          rel="noreferrer"
+          ><span>⌖</span> Buka Petunjuk Arah <small>Google Maps ↗</small></a
+        >
+      </section>
+
+      <section class="donation section-frame" aria-labelledby="donation-title">
+        <figure class="section-visual">
+          <img
+            src="img/5.jpeg"
+            alt="Kebersamaan jamaah Majelis Al-Fathonah"
+            loading="lazy"
+          />
+        </figure>
+        <div class="section-heading">
+          <span class="section-kicker">05 / PARTISIPASI</span>
+          <h2 id="donation-title">Infaq & Partisipasi Kegiatan</h2>
+        </div>
+        <p class="donation-intro">
+          Bagi Bapak/Ibu/Saudara/i yang berkenan berinfaq untuk kelancaran
+          kegiatan Maulid Nabi SAW, infaq dapat disalurkan melalui:
+        </p>
+        <div class="account">
+          <div class="account-top">
+            <span class="bank sea">SeaBank</span
+            ><span class="account-type">Rekening Resmi</span>
+          </div>
+          <strong>90156102970</strong>
+          <p>a.n. Hamid Abdulrahman</p>
+          <button class="copy-button" data-copy="90156102970">
+            ▣ &nbsp; Salin No. Rekening
+          </button>
+        </div>
+        <div class="account">
+          <div class="account-top">
+            <span class="bank dana">DANA / E-Wallet</span
+            ><span class="account-type">E-Wallet</span>
+          </div>
+          <strong>081313362467</strong>
+          <p>a.n. Reyhan Tri Ramadhan</p>
+          <button class="copy-button" data-copy="081313362467">
+            ▣ &nbsp; Salin Nomor DANA
+          </button>
+        </div>
+        <p class="donation-footnote">
+          Konfirmasi bukti partisipasi/infaq dapat disampaikan langsung kepada
+          panitia majelis.
+        </p>
+      </section>
+
+      <section class="gallery section-frame" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <span class="section-kicker">06 / DOKUMENTASI</span>
+          <h2 id="gallery-title">Jejak Kebersamaan</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure>
+            <img
+              src="img/6.jpeg"
+              alt="Dokumentasi kegiatan Al-Fathonah"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/7.jpeg"
+              alt="Dokumentasi jamaah Al-Fathonah"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/8.jpeg"
+              alt="Dokumentasi majelis ilmu"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/9.jpeg"
+              alt="Dokumentasi acara Maulid Nabi"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/10.jpeg"
+              alt="Dokumentasi kebersamaan jamaah"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/11.jpeg"
+              alt="Dokumentasi suasana majelis"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/12.jpeg"
+              alt="Dokumentasi kegiatan dakwah"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/unnamed.jpg"
+              alt="Dokumentasi Majelis Al-Fathonah"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/unnamed (1).jpg"
+              alt="Dokumentasi jamaah majelis"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/unnamed (2).jpg"
+              alt="Dokumentasi acara majelis"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              src="img/unnamed (3).jpg"
+              alt="Dokumentasi kegiatan Al-Fathonah"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-frame">
+      <p class="arabic footer-arabic" lang="ar">
+        جَزَاكُمُ اللَّهُ خَيْرًا كَثِيرًا
+      </p>
+      <p>
+        Semoga Allah SWT melimpahkan keberkahan dan membalas<br />seluruh
+        kebaikan Bapak/Ibu dengan berlipat ganda. Aamiin ya Rabbal 'Alamiin.
+      </p>
+      <small
+        >Copyright © 2025 Majelis Ta'lim Al-Fathonah. All Rights
+        Reserved.</small
+      >
+    </footer>
+    <div class="toast" role="status" aria-live="polite">
+      Tersalin ke clipboard
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
